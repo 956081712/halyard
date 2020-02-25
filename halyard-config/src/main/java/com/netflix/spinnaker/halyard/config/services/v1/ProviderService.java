@@ -113,6 +113,7 @@ public class ProviderService {
     switch (provider.providerType()) {
       case ALICLOUD:
         providers.setAlicloud((AliCloudProvider) provider);
+        break;
       case APPENGINE:
         providers.setAppengine((AppengineProvider) provider);
         break;
